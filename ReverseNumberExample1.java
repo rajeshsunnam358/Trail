@@ -2,7 +2,7 @@ public class ReverseNumberExample1
 {  
 public static void main(String[] args)   
 {  
-int number = a987654, reverse = 0;  
+int number = 12987654, reverse = 0;  
 while(number != 0)   
 {  
 int remainder = number % 10;  
