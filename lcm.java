@@ -1,4 +1,4 @@
-public class lcm {
+public class Lcm {
   public static void main(String[] args) {
 
     int n1 = 72, n2 = 120, lcm;
