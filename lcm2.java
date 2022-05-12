@@ -1,7 +1,7 @@
 public class Lcm {
   public static void main(String[] args) {
 
-    int n1 = 72, n2 = 120, lcm;
+    int n1 = 120, n2 = 72, lcm;
 
     // maximum number between n1 and n2 is stored in lcm
     lcm = (n1 > n2) ? n1 : n2;
