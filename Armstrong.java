@@ -2,7 +2,7 @@ public class Armstrong {
 
     public static void main(String[] args) {
 
-        int number = 375, originalNumber, remainder, result = 0;
+        int number = 395, originalNumber, remainder, result = 0;
 
         originalNumber = number;
 
@@ -12,7 +12,7 @@ public class Armstrong {
             result += Math.pow(remainder, 3);
             originalNumber =originalNumber/10;
         }
-
+        System.out.println("The sum of thecubes of digits =="+result);  
         if(result == number)
             System.out.println(number + " is an Armstrong number.");
         else
